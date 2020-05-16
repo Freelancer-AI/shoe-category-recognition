@@ -20,7 +20,7 @@ Images in training set are downscaled to mono-channel greyscale images having 12
 Each unique category of shoe is assigned an integer value between 0 to 5.
 
 ***Images with true classes***
-![](images/True_classes.png)
+![](True_classes.png)
 
 After dowloading and storing images in specific folders run the create_data.py file with location of images in the respective view folder to create training data.
 
@@ -35,14 +35,14 @@ To get predictions from the trained model run predict.py
     python predict.py
     
 ***Images with true and predicted classes***
-![](images/predicted.png)
+![](predicted.png)
 
 ***Some misclassified images***
-![](images/example_errors.png)
+![](example_errors.png)
 
 To check which category of images are misclassified by our model plot a confusion matrix.
 
 ***Confusion matrix***
-![](images/matrix.png)
+![](matrix.png)
 
 Slight colour variation is observed in true classes 3,4 model is confusing images of class 4 with class 0,1 and images of class 3 with 2.
